@@ -1,1 +1,3 @@
-# BE-2-rest-rant-part-1
+# Project REST-Rant
+
+REST-Rant is an app where users can review restaurants.

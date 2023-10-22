@@ -4,4 +4,4 @@ router.get('/', (req, res) => {
     res.send('GET /places')
 })
 
-module.export = router
+module.exports = router
