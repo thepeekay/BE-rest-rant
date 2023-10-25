@@ -2,3 +2,12 @@ h1 {
     text-align: center;
     color: cornflowerblue;
 }
+
+img {
+    height: 1000px;
+    width: auto;
+}
+
+* {
+    text-align: center;
+}
