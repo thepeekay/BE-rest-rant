@@ -126,3 +126,9 @@ form {
 input {
     margin-bottom: 25px;
 }
+
+.edit-btns {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}

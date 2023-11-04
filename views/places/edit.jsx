@@ -14,11 +14,11 @@ function edit_form(data) {
                     <div className='edit-wrapper'>
                         <div className="form-group1 col-sm-6">
                             <img src={`${data.place.pic}`} alt="" />
-                            <label htmlFor="name">Place Picture</label>
+                            <label htmlFor="pic">Place Picture</label>
                             <input
                                 className="form-control"
-                                id="name"
-                                name="name"
+                                id="pic"
+                                name="pic"
                                 value={data.place.pic}
                                 required />
                         </div>
