@@ -22,8 +22,8 @@ router.get('/new', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-    const { name, pic, city, state, cuisines } = req.body
-    res.redirect('/places')
+    console.log(req.body)
+    res.send('POST /places')
 })
 
 
