@@ -21,5 +21,10 @@ router.get('/new', (req, res) => {
     res.render('places/new.jsx')
 })
 
+router.post('/', (req, res) => {
+    const { name, pic, city, state, cuisines } = req.body
+    res.redirect('/places')
+})
+
 
 module.exports = router
