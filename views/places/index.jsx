@@ -20,8 +20,13 @@ function index(data) {
         <Def>
             <main>
                 <h1>Places to Rant or Rave About</h1>
+                <div>
+                    <a href="/">
+                        <button className='btn btn-primary btn-lg'>REST-Rant Home</button>
+                    </a>
+                </div>
                 <div className='row'>
-                {placesFormatted}
+                    {placesFormatted}
                 </div>
             </main>
         </Def>

@@ -17,4 +17,9 @@ router.get('/', (req, res) => {
     res.render('places/index.jsx', { places })
 })
 
+router.get('/new', (req, res) => {
+    res.render('places/new.jsx')
+})
+
+
 module.exports = router
