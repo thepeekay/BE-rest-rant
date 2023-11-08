@@ -9,12 +9,12 @@ function index(data) {
                     <a href={`/places/${place.id}`}>{place.name}</a>
                 </h2>
                 <p className='text-center'>
-                    {place.cuisines}
-                </p>
-                <img src={place.pic} alt={place.name} />
-                <p className='text-center'>
                     <p>Located in {place.city}, {place.state}</p>
                 </p>
+                <p className='text-center'>
+                    {place.cuisines}
+                </p>
+                <img className='index-img' src={place.pic} alt={place.name} />
             </div>
         )
     })
@@ -22,11 +22,6 @@ function index(data) {
         <Def>
             <main>
                 <h1>Places to Rant or Rave About</h1>
-                <div>
-                    <a href="/">
-                        <button className='btn btn-primary btn-lg'>REST-Rant Home</button>
-                    </a>
-                </div>
                 <div className='row'>
                     {placesFormatted}
                 </div>

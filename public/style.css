@@ -8,6 +8,10 @@ img {
     width: auto;
 }
 
+.index-img {
+    margin-bottom: 20px;
+}
+
 * {
     text-align: center;
 }
