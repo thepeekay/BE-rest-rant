@@ -1,7 +1,10 @@
 const React = require('react')
 const Def = require('../default.jsx')
 
-function new_form() {
+function new_form(data) {
+    let message = data.message ? (
+        <h4 className='alert alert-danger'>{data.message}</h4>
+    ) : null
     return (
         <Def>
             <head>
@@ -9,6 +12,7 @@ function new_form() {
             </head>
             <main>
                 <h1>Add a New Place</h1>
+                {message}
                 <form method="POST" action="/places">
                     <div className="form-group">
                         <label htmlFor="name">Place Name</label>
